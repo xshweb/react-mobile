@@ -1,0 +1,78 @@
+.pie-content {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 40px;
+  .piecharts-graph {
+    height: 600px;
+  }
+  .piecharts-legends {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-left: 50px;
+    .piecharts-legend {
+      display: flex;
+      width: 300px;
+      height: 40px;
+      align-items: center;
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      .legend-con {
+        display: flex;
+        align-items: center;
+        .legend-icon {
+          display: block;
+          width: 24px;
+          height: 16px;
+          margin-right: 10px;
+          &.icon-bg0 {
+            background: #0e6de9;
+          }
+          &.icon-bg1 {
+            background: #8085e9;
+          }
+          &.icon-bg2 {
+            background: #ea3434;
+          }
+          &.icon-bg3 {
+            background: #920783;
+          }
+          &.icon-bg4 {
+            background: #00af6d;
+          }
+          &.icon-bg5 {
+            background: #e4d354;
+          }
+          &.icon-bg6 {
+            background: #f7a35c;
+          }
+          &.icon-bg7 {
+            background: #601986;
+          }
+          &.icon-bg8 {
+            background: #0EE6E9;     
+          }
+        }
+        .legend-text {
+          max-width: 118px;
+          min-width: 90px;
+          height: 28px;
+          font-size: 28px;
+          color: #333;
+          display: flex;
+          align-items: center;
+        }
+      }
+      .legend-scale {
+        height: 30px;
+        font-size: 30px;
+        color: #48A0FF;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+

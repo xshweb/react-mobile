@@ -1,0 +1,79 @@
+{
+  "id": "2393112",
+  "name": "企业微信",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20157150",
+      "name": "疑问",
+      "font_class": "yiwen",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "20156865",
+      "name": "里程碑",
+      "font_class": "lichengbei",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "20155773",
+      "name": "xiaoshoubaobiao-01",
+      "font_class": "xiaoshoubaobiao-01",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "20155653",
+      "name": "zhaopinpeizhi",
+      "font_class": "zhaopinpeizhi1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "16027463",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "8351886",
+      "name": "返回",
+      "font_class": "fanhui1",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "5306518",
+      "name": "未完成",
+      "font_class": "weiwancheng",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "18455976",
+      "name": "目标",
+      "font_class": "mubiao",
+      "unicode": "e723",
+      "unicode_decimal": 59171
+    },
+    {
+      "icon_id": "4250542",
+      "name": " 财务",
+      "font_class": "finance",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "5334204",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    }
+  ]
+}

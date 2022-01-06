@@ -1,0 +1,75 @@
+.hrline-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  height: 36px;
+  .hrline-title {
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    text-align: left;
+    font-size: 36px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .title-num {
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    text-align: left;
+    font-size: 32px;
+    color: #666666;
+    margin-left: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .hrline-box {
+    flex: 1;
+    height: 36px;
+    position: relative;
+    .hrline-default {
+      position: relative;
+      height: 36px;
+      display: flex;
+      align-items: center;
+    }
+    .hrline-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .hrstatus-line {
+      width: 4px;
+      height: 36px;
+    }
+    .hrstatus {
+      flex: 1;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .hrstatus-value {
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        color: rgba(255, 255, 255, 0.67);
+        font-size: 28px;
+        text-align: center;
+      }
+    }
+  }
+  .hrstatus-success {
+    background: #48A0FF;
+  }
+  .hrstatus-saved {
+    background: #5FCB6D;
+  }
+  .hrstatus-need {
+    background-color: #FF9212;
+  }
+}
+

@@ -1,0 +1,71 @@
+.ring-li {
+  width: 206px;
+  position: relative;
+  &::after {
+    content: "";
+    width: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 2px dotted #c3c3c3;
+  }
+  &:last-child {
+    &::after {
+      width: 0;
+      border: none;
+    }
+  }
+  .ring-li-title {
+    height: 42px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 42px;
+    text-align: center;
+  }
+  .ring-li-echart {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+  }
+  .ring-li-content {
+    .li-content-item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+      .item-title {
+        width: 66px;
+        display: block;
+        font-size: 30px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 32px;
+        margin-left: 6px;
+      }
+      .item-value-wrapper {
+        flex: 1;
+        min-height: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .item-value {
+        display: block;
+        font-size: 32px;
+        font-weight: 500;
+        color: #48a0ff;
+        line-height: 32px;
+      }
+      .item-unit {
+        display: block;
+        font-size: 32px;
+        font-weight: 400;
+        color: #48a0ff;
+        line-height: 32px;
+      }
+    }
+  }
+}

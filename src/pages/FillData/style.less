@@ -1,0 +1,252 @@
+.iptdata-page {
+  background-color: #efefef;
+  min-height: 100vh;
+  box-sizing: border-box;
+  .iptdata-wrapper {
+    position: relative;
+    .iptdata-bg {
+      width: 100%;
+      background-color: #4d78bd;
+      height: 300px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    .content-wrapper {
+      position: relative;
+      width: 100%;
+      box-sizing: border-box;
+      min-height: 200px;
+      .content-bg {
+        width: 690px;
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-bottom: 50px;
+        overflow: hidden;
+      }
+      .iptdata-content {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0px 5px 8px 0px rgba(195, 195, 195, 0.6);
+        min-height: 200px;
+        .calendar-wrapper {
+          padding: 0 30px 50px;
+          .calendar-header {
+            padding: 30px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .calendar-btn {
+              display: flex;
+              width: 46px;
+              height: 46px;
+              justify-content: center;
+              align-items: center;
+              background-color: #618cf2;
+              border-radius: 50%;
+              .iconfont {
+                font-size: 24px;
+                color: #fff;
+                font-weight: 500;
+              }
+              .right {
+                transform: rotate(180deg);
+              }
+              &.disabled {
+                background-color: #ccc;
+              }
+            }
+            .calendar-date {
+              height: 46px;
+              line-height: 46px;
+              font-size: 36px;
+              color: #010101;
+            }
+          }
+          .calendar-content {
+            padding-top: 20px;
+            .week-ul {
+              display: flex;
+              margin-bottom: 30px;
+              .week-li-item {
+                width: 90px;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+              .week-li {
+                display: block;
+                width: 52px;
+                height: 52px;
+                line-height: 52px;
+                text-align: center;
+                color: #999999;
+                font-weight: 500;
+                font-size: 36px;
+              }
+            }
+            .date-ul {
+              display: flex;
+              flex-wrap: wrap;
+              .date-li-item {
+                width: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 52px;
+                margin-bottom: 28px;
+                &.isedit {
+                  background-color: rgba(35, 149, 255, 0.18);
+                }
+                &.radius {
+                  border-top-right-radius: 52px;
+                  border-bottom-right-radius: 52px;
+                }
+                &.left-radius {
+                  border-top-left-radius: 52px;
+                  border-bottom-left-radius: 52px;
+                }
+              }
+              .date-li {
+                width: 52px;
+                height: 52px;
+                line-height: 52px;
+                text-align: center;
+                color: #363636;
+                font-weight: 400;
+                font-size: 36px;
+                border-radius: 50%;
+                box-sizing: border-box;
+                &.disabled {
+                  color: #ccc;
+                }
+                &.isipt {
+                  border: 1px solid #00E8BE;
+                  color: #3988f9;
+                }
+                &.isselect {
+                  background-color: #3988f9;
+                  color: #fff;
+                  border: none;
+                }
+              }
+            }
+          }
+        }
+        .form-wrapper {
+          border-top: 1px solid #efefef;
+          padding: 0 0 50px;
+          .form-ul {
+            padding: 0 34px;
+          }
+          .form-li {
+            width: 100%;
+            display: flex;
+          }
+          .form-li-title {
+            padding: 0;
+            justify-content: space-between;
+            .title {
+              // width: 240px;
+              height: 106px;
+              line-height: 106px;
+              font-weight: 500;
+              color: #666;
+              padding-left: 34px;
+              font-size: 36px;
+            }
+            .date {
+              // height: 106px;
+              line-height: 106px;
+              font-size: 28px;
+              font-weight: 400;
+              color: #ff9212;
+              padding-right: 34px;
+            }
+          }
+        }
+      }
+      .iptdata-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 62px;
+        .btn {
+          width: 300px;
+          height: 92px;
+          line-height: 92px;
+          background: #618cf2;
+          border-radius: 5px;
+          color: #fff;
+          text-align: center;
+          font-size: 36px;
+          margin: 0 10px;
+        }
+        .cancle-btn {
+          background: #ccd9f8;
+          color: #618cf2;
+        }
+        .edit-btn {
+          width: 592px;
+          height: 84px;
+          color: #fff;
+          font-size: 36px;
+          text-align: center;
+          line-height: 84px;
+          background: #618cf2;
+          box-shadow: 0px 5px 22px 2px rgba(97, 140, 242, 0.5);
+          border-radius: 42px;
+        }
+      }
+    }
+  }
+  .iptpower-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    .powericon {
+      margin: 0 auto 80px;
+      display: block;
+      width: 316px;
+      height: 247px;
+    }
+    .tips {
+      width: 100%;
+      margin-bottom: 60px;
+      .tips-title {
+        text-align: center;
+        height: 36px;
+        line-height: 36px;
+        font-size: 36px;
+        font-weight: 500;
+        color: #2e77ee;
+        margin-bottom: 30px;
+      }
+      .tips-des {
+        text-align: center;
+        height: 28px;
+        line-height: 28px;
+        font-size: 28px;
+        font-weight: 400;
+        color: #4d4d4d;
+      }
+    }
+    .back-btn {
+      width: 300px;
+      height: 80px;
+      line-height: 80px;
+      background-color: #2e77ee;
+      color: #fff;
+      font-size: 28px;
+      text-align: center;
+      border-radius: 8px;
+      margin: 0 auto;
+    }
+  }
+}
